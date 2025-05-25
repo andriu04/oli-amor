@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Botón de Texto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .button-container {
+            text-align: center;
+        }
+
+        .my-button {
+            background-color: #4CAF50; /* Un color de fondo verde */
+            color: white; /* Color del texto blanco */
+            padding: 15px 30px; /* Espaciado interno */
+            border: none; /* Sin borde */
+            border-radius: 8px; /* Bordes redondeados */
+            cursor: pointer; /* Cambia el cursor al pasar por encima */
+            font-size: 18px; /* Tamaño de fuente */
+            transition: background-color 0.3s ease; /* Transición suave para el color de fondo */
+        }
+
+        .my-button:hover {
+            background-color: #45a049; /* Color de fondo más oscuro al pasar el ratón */
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <button class="my-button">¡Haz clic aquí!</button>
+    </div>
+</body>
+</html>
